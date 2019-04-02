@@ -1,0 +1,174 @@
+body {
+  font-family: Futura;
+  margin: 0 auto;
+  color: #5e5f60;
+}
+
+h2 {
+  font-weight: 500px;
+  font-size: 28px;
+  color: #5e5f60;
+}
+
+p {
+  font-size: 22px;
+  font-weight: normal;
+  color: #5e5f60;
+}
+
+.feature-image {
+  width: 100%;
+}
+
+.feature-post {
+  text-decoration: none;
+}
+
+.feature-content {
+  padding:  40px 100px;
+}
+
+.feature-post h2 {
+  font-size: 32px;
+}
+
+.feature-post a {
+  text-decoration: none
+}
+
+.post-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.post-item {
+  padding: 40px 100px;
+  border-bottom: 1px solid;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.post-item p {
+  /*width: 50%;*/
+}
+
+.post-item img {
+  /*float: right;
+  width: 50%;*/
+}
+
+.post-content {
+  width: 50%;
+}
+
+.post-content a {
+  text-decoration: none;
+}
+
+
+
+@media only screen and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+
+  main {
+    width: auto;
+    display: inline-block;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  h2 {
+    font-size: 22px;
+    color: #5e5f60;
+  }
+
+  p {
+    font-size: 18px;
+    font-weight: normal;
+    color: #5e5f60;
+  }
+
+  hr {
+    display: none;
+  }
+
+  .feature-image {
+    width: 70%;
+    float: right;
+    height: 400px;
+  }
+
+  .feature-post {
+    text-decoration: none;
+    padding: 40px 50px;
+    display: inline-block;
+
+  }
+
+  .feature-post h2 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .feature-post p {
+    font-size: 14px;
+  }
+
+  .feature-post a {
+    text-decoration: none
+  }
+
+  .feature-content {
+    position: absolute;
+    width: 40%;
+    font-size: 14px;
+    display: inline-flex;
+    /*vertical-align: middle;*/
+    flex-direction: column;
+    margin-top: 60px;
+    background-color: lightgray;
+    padding: 20px;
+    height: 200px;
+}
+
+
+  .post-list {
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+
+  }
+
+  .post-content {
+    width: 100%;
+  }
+
+  .post-item {
+    /*padding: 40px 100px;*/
+    border-bottom: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    overflow-y: scroll;
+    padding: 0 20px;
+  }
+
+  .post-item h2 {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .post-item p {
+    font-size: 12px;
+  }
+
+  .post-item img {
+    width: 100%;
+  }
+
+
+  .post-content a {
+    text-decoration: none;
+  }
+
+}
